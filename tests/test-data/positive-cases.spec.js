@@ -1,0 +1,53 @@
+export const positiveTestCases = [
+  {
+    name: 'Valid moderator registration - Case 1',
+    title: 'Mr.',
+    fullNameEn: 'John Smith',
+    fullNameAr: 'جون سميث',
+    jobTitleEn: 'Senior Manager',
+    jobTitleAr: 'مدير أول',
+    email: 'john.smith@example.com',
+    phone: '+971501234567',
+    emiratesId: '784-1995-1234567-8',
+    location: 'Dubai',
+    expertise: 'Over 10 years of experience in management',
+    education: 'Master of Business Administration',
+    membership: 'Member of International Management Association',
+    additionalMessage: 'Excited to participate in this conference',
+    publications: 'Published 5 articles on management strategies'
+  },
+  {
+    name: 'Valid moderator registration - Case 2',
+    title: 'Ms.',
+    fullNameEn: 'Sarah Johnson',
+    fullNameAr: 'سارة جونسون',
+    jobTitleEn: 'Director of Operations',
+    jobTitleAr: 'مديرة العمليات',
+    email: 'sarah.johnson@company.ae',
+    phone: '+971509876543',
+    emiratesId: '784-1998-5678901-2',
+    location: 'Abu Dhabi',
+    expertise: 'Expert in operational excellence and process improvement',
+    education: 'Bachelor of Science in Operations Management',
+    membership: 'Certified Professional in Supply Chain Management',
+    additionalMessage: 'Looking forward to sharing insights with peers',
+    publications: 'Authored 3 books on operations management'
+  },
+  {
+    name: 'Valid moderator registration - Case 3',
+    title: 'Mr.',
+    fullNameEn: 'Ahmed Hassan',
+    fullNameAr: 'أحمد حسن',
+    jobTitleEn: 'Project Lead',
+    jobTitleAr: 'قائد المشروع',
+    email: 'ahmed.hassan@org.com',
+    phone: '+971505555555',
+    emiratesId: '784-2000-9999999-9',
+    location: 'Sharjah',
+    expertise: 'Specialized in project management and team leadership',
+    education: 'PMP Certified - Project Management Professional',
+    membership: 'Active member of Project Management Institute',
+    additionalMessage: 'Keen to discuss best practices in the industry',
+    publications: 'Presenter at 8 international conferences'
+  }
+];

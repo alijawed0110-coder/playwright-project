@@ -1,0 +1,972 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\playwright.config.js",
+    "rootDir": "C:/Users/Technyx Systems/Desktop/Practice/playwright-project/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Technyx Systems/Desktop/Practice/playwright-project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Technyx Systems/Desktop/Practice/playwright-project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/Technyx Systems/Desktop/Practice/playwright-project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Technyx Systems/Desktop/Practice/playwright-project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/Technyx Systems/Desktop/Practice/playwright-project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Technyx Systems/Desktop/Practice/playwright-project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "speaker.spec.js",
+      "file": "speaker.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Speaker Registration - Complete Flow",
+          "file": "speaker.spec.js",
+          "line": 52,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Complete speaker registration flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 47149,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:50:32.717Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-7768b3666321cf0cbc62",
+              "file": "speaker.spec.js",
+              "line": 53,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Speaker Registration - Positive Cases",
+          "file": "speaker.spec.js",
+          "line": 175,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Full Name field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10841,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:51:20.396Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-0b260f97808756f956e5",
+              "file": "speaker.spec.js",
+              "line": 180,
+              "column": 5
+            },
+            {
+              "title": "Job Title & Organisation field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12024,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:51:31.321Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-21df8bac8b77a73b436c",
+              "file": "speaker.spec.js",
+              "line": 186,
+              "column": 5
+            },
+            {
+              "title": "Email Address field accepts valid email",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10819,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:51:43.406Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-7e02c946fc8ad2fe9c7d",
+              "file": "speaker.spec.js",
+              "line": 192,
+              "column": 5
+            },
+            {
+              "title": "Phone Number field accepts valid phone",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6486,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:51:54.263Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-58ae87a8a24a7a879d81",
+              "file": "speaker.spec.js",
+              "line": 199,
+              "column": 5
+            },
+            {
+              "title": "Expertise field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6442,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:52:00.800Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-03ae8712dfd9518050bf",
+              "file": "speaker.spec.js",
+              "line": 205,
+              "column": 5
+            },
+            {
+              "title": "Educational Background field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8922,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:52:07.292Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-ee0f3cc1189b5bf5c1b1",
+              "file": "speaker.spec.js",
+              "line": 211,
+              "column": 5
+            },
+            {
+              "title": "Memberships field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7420,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:52:16.262Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-6179155f97a7e81d9f32",
+              "file": "speaker.spec.js",
+              "line": 217,
+              "column": 5
+            },
+            {
+              "title": "Type your message field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6211,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:52:23.720Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-a3cec0284d3b3318539a",
+              "file": "speaker.spec.js",
+              "line": 223,
+              "column": 5
+            },
+            {
+              "title": "Publications field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6935,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:52:29.978Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-3555fc16f4130b8d0994",
+              "file": "speaker.spec.js",
+              "line": 229,
+              "column": 5
+            },
+            {
+              "title": "Book Titles field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8123,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:52:36.957Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-143ff78d577d7dfd2517",
+              "file": "speaker.spec.js",
+              "line": 235,
+              "column": 5
+            },
+            {
+              "title": "Session Title field accepts valid input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8519,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:52:45.117Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-8de36ade629b65be1d38",
+              "file": "speaker.spec.js",
+              "line": 244,
+              "column": 5
+            },
+            {
+              "title": "Session Description field accepts 300+ characters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7434,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:52:53.676Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-8c832892fe1d0d5bdc54",
+              "file": "speaker.spec.js",
+              "line": 251,
+              "column": 5
+            },
+            {
+              "title": "PDF upload field accepts a valid file",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6592,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:53:01.155Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-929214ffe2997b2c33e3",
+              "file": "speaker.spec.js",
+              "line": 259,
+              "column": 5
+            },
+            {
+              "title": "Photo upload field accepts a valid image",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6999,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:53:07.784Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-e80dbcc3e81c0b4575d0",
+              "file": "speaker.spec.js",
+              "line": 268,
+              "column": 5
+            }
+          ]
+        },
+        {
+          "title": "Speaker Registration - Negative Cases",
+          "file": "speaker.spec.js",
+          "line": 277,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Full Name field rejects too short input",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7307,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:286:23",
+                        "location": {
+                          "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                          "column": 23,
+                          "line": 286
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 284 |\u001b[39m         \u001b[36mawait\u001b[39m fullName\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39mfullName)\u001b[33m;\u001b[39m\n \u001b[90m 285 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m fullName\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 286 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 287 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 288 |\u001b[39m\n \u001b[90m 289 |\u001b[39m     test(\u001b[32m'Job Title & Organisation field cannot be empty'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                            "column": 23,
+                            "line": 286
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 284 |\u001b[39m         \u001b[36mawait\u001b[39m fullName\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39mfullName)\u001b[33m;\u001b[39m\n \u001b[90m 285 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m fullName\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 286 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 287 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 288 |\u001b[39m\n \u001b[90m 289 |\u001b[39m     test(\u001b[32m'Job Title & Organisation field cannot be empty'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:286:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:53:14.817Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\test-results\\speaker-Speaker-Registrati-82eab-eld-rejects-too-short-input-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                        "column": 23,
+                        "line": 286
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-0c04eb3c393c964424a5",
+              "file": "speaker.spec.js",
+              "line": 282,
+              "column": 5
+            },
+            {
+              "title": "Job Title & Organisation field cannot be empty",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7350,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:293:23",
+                        "location": {
+                          "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                          "column": 23,
+                          "line": 293
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 291 |\u001b[39m         \u001b[36mawait\u001b[39m jobTitle\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39mjobTitle)\u001b[33m;\u001b[39m\n \u001b[90m 292 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m jobTitle\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 295 |\u001b[39m\n \u001b[90m 296 |\u001b[39m     test(\u001b[32m'Email Address rejects invalid email format'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                            "column": 23,
+                            "line": 293
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 291 |\u001b[39m         \u001b[36mawait\u001b[39m jobTitle\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39mjobTitle)\u001b[33m;\u001b[39m\n \u001b[90m 292 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m jobTitle\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 295 |\u001b[39m\n \u001b[90m 296 |\u001b[39m     test(\u001b[32m'Email Address rejects invalid email format'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:293:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:53:23.786Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\test-results\\speaker-Speaker-Registrati-cabad-ation-field-cannot-be-empty-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                        "column": 23,
+                        "line": 293
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-b32f8bb4d93f3adabfc0",
+              "file": "speaker.spec.js",
+              "line": 289,
+              "column": 5
+            },
+            {
+              "title": "Email Address rejects invalid email format",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8323,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:300:23",
+                        "location": {
+                          "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                          "column": 23,
+                          "line": 300
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 298 |\u001b[39m         \u001b[36mawait\u001b[39m email\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39memail)\u001b[33m;\u001b[39m\n \u001b[90m 299 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m email\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 300 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 301 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 302 |\u001b[39m\n \u001b[90m 303 |\u001b[39m     test(\u001b[32m'Phone Number rejects invalid phone input'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                            "column": 23,
+                            "line": 300
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 298 |\u001b[39m         \u001b[36mawait\u001b[39m email\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39memail)\u001b[33m;\u001b[39m\n \u001b[90m 299 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m email\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 300 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 301 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 302 |\u001b[39m\n \u001b[90m 303 |\u001b[39m     test(\u001b[32m'Phone Number rejects invalid phone input'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:300:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:53:33.371Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\test-results\\speaker-Speaker-Registrati-c1db1-ejects-invalid-email-format-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                        "column": 23,
+                        "line": 300
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-126f736020a9a001a8fc",
+              "file": "speaker.spec.js",
+              "line": 296,
+              "column": 5
+            },
+            {
+              "title": "Phone Number rejects invalid phone input",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7082,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:307:23",
+                        "location": {
+                          "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                          "column": 23,
+                          "line": 307
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 305 |\u001b[39m         \u001b[36mawait\u001b[39m phone\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39mphone)\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m phone\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 307 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 308 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 309 |\u001b[39m\n \u001b[90m 310 |\u001b[39m     test(\u001b[32m'Session Description rejects under-300 character input'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                            "column": 23,
+                            "line": 307
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 305 |\u001b[39m         \u001b[36mawait\u001b[39m phone\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39mphone)\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m phone\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 307 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 308 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 309 |\u001b[39m\n \u001b[90m 310 |\u001b[39m     test(\u001b[32m'Session Description rejects under-300 character input'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:307:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:53:43.857Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\test-results\\speaker-Speaker-Registrati-91700-rejects-invalid-phone-input-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                        "column": 23,
+                        "line": 307
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-e6b2a56ac91f93ea4da2",
+              "file": "speaker.spec.js",
+              "line": 303,
+              "column": 5
+            },
+            {
+              "title": "Session Description rejects under-300 character input",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7573,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:315:23",
+                        "location": {
+                          "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                          "column": 23,
+                          "line": 315
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 313 |\u001b[39m         \u001b[36mawait\u001b[39m sessionDescription\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39msessionDescription)\u001b[33m;\u001b[39m\n \u001b[90m 314 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m sessionDescription\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 315 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 316 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 317 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                            "column": 23,
+                            "line": 315
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mfalse\u001b[39m\nReceived: \u001b[31mtrue\u001b[39m\n\n\u001b[0m \u001b[90m 313 |\u001b[39m         \u001b[36mawait\u001b[39m sessionDescription\u001b[33m.\u001b[39mfill(testData\u001b[33m.\u001b[39mnegative\u001b[33m.\u001b[39msessionDescription)\u001b[33m;\u001b[39m\n \u001b[90m 314 |\u001b[39m         \u001b[36mconst\u001b[39m valid \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m sessionDescription\u001b[33m.\u001b[39mevaluate((input) \u001b[33m=>\u001b[39m input\u001b[33m.\u001b[39mcheckValidity())\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 315 |\u001b[39m         expect(valid)\u001b[33m.\u001b[39mtoBe(\u001b[36mfalse\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 316 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 317 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js:315:23\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-08T14:53:52.763Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\test-results\\speaker-Speaker-Registrati-b0491-s-under-300-character-input-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\Technyx Systems\\Desktop\\Practice\\playwright-project\\tests\\speaker.spec.js",
+                        "column": 23,
+                        "line": 315
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "345b755fda7f3fae0535-4eb02641342072584456",
+              "file": "speaker.spec.js",
+              "line": 310,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-05-08T14:50:31.712Z",
+    "duration": 209441.60199999998,
+    "expected": 15,
+    "skipped": 0,
+    "unexpected": 5,
+    "flaky": 0
+  }
+}
