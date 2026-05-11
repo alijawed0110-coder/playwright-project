@@ -1,6 +1,17 @@
+import { exec } from "child_process";
+
 export default function handler(req, res) {
-  res.status(200).json({
-    success: true,
-    message: "API working"
+  exec("npx playwright test speaker.spec.js --headed", (err, stdout, stderr) => {
+    if (err) {
+      return res.status(500).json({
+        success: false,
+        error: stderr
+      });
+    }
+
+    res.status(200).json({
+      success: true,
+      output: stdout
+    });
   });
 }
