@@ -1,7 +1,7 @@
 import { exec } from "child_process";
 
 export default function handler(req, res) {
-  exec("npx playwright test speaker.spec.js --headed", (err, stdout, stderr) => {
+  exec("npx playwright test tests/speaker.spec.js --headed=false", (err, stdout, stderr) => {
     if (err) {
       return res.status(500).json({
         success: false,
